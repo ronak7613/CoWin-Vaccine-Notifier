@@ -8,9 +8,10 @@ from pygame import mixer
 from datetime import datetime, timedelta
 import time
 
+age = int(input("enter your age : "))
+pincode=input("enter pincode : ")
+pincodes = [pincode]
 
-age = 52
-pincodes = ["462003"]
 num_days = 2
 
 print_flag = 'Y'
